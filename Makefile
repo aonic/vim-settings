@@ -1,5 +1,5 @@
 
-all: clean bundles config plugins
+all: bundles clean config plugins
 
 bundles: .gitmodules
 	git submodule init
